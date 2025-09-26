@@ -1,0 +1,17 @@
+#include <iostream> 
+using  namespace std;
+
+int main () {
+
+    string name, country, age; 
+
+    cout<<"whats your name?"<<endl;
+    cin >> name;
+    cout<<"Nice to meet you "<< name << " where are you from?"<<endl;
+    cin >> country;
+    cout<< country<<"?, I'm going there for vacations,"<< " how old are you?"<<endl;
+    cin>> age;
+    cout<< age<<"!!!, damm"<<endl;
+
+return 0;
+}
